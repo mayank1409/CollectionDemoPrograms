@@ -85,11 +85,11 @@ public class ComparatorDemo {
 		employees.add(dravid);
 
 		Collections.sort(employees, new NamedCompator());
-		System.out.println("NamedComparator " + employees);
+		System.out.println("Name " + employees);
 		// [Employee Dravid], Employee Ganguly], Employee Sachin], Employee Sehwag]]
 
 		Collections.sort(employees, new AgedComparator());
-		System.out.println("AgeComparator " + employees);
+		System.out.println("Age "+ employees);
 		// [Employee Dravid], Employee Sachin], Employee Sehwag], Employee Ganguly]]
 
 	}
